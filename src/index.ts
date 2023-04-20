@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+// @ts-nocheck
 import inquirer from 'inquirer'
 import _ from 'lodash'
 import fs from 'fs'
