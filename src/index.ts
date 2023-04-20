@@ -71,11 +71,33 @@ const main = async () => {
         ]
 
         let suffix = {
-            'pages': 'P',
+            'pages': 'Pa',
             'pages/package-A': 'A',
             'pages/package-B': 'B',
             'pages/package-C': 'C',
-            'pages/package-D': 'D'
+            'pages/package-D': 'D',
+            'pages/package-E': 'E',
+            'pages/package-F': 'F',
+            'pages/package-G': 'G',
+            'pages/package-H': 'H',
+            'pages/package-I': 'I',
+            'pages/package-J': 'J',
+            'pages/package-K': 'K',
+            'pages/package-L': 'L',
+            'pages/package-M': 'M',
+            'pages/package-N': 'N',
+            'pages/package-O': 'O',
+            'pages/package-P': 'P',
+            'pages/package-Q': 'Q',
+            'pages/package-R': 'R',
+            'pages/package-S': 'S',
+            'pages/package-T': 'T',
+            'pages/package-U': 'U',
+            'pages/package-V': 'V',
+            'pages/package-W': 'W',
+            'pages/package-X': 'X',
+            'pages/package-Y': 'Y',
+            'pages/package-Z': 'Z',
         }
         // 更改
         setTimeout(() => {
