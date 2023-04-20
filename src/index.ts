@@ -46,6 +46,14 @@ const selects = {
 
 
 const main = async () => {
+    // 检测配置是否正确
+    if (!fs.existsSync(`${process.env.PWD}/config/wtfdata/index/components/Test.tsx`) || !fs.existsSync(`${process.env.PWD}/config/wtfdata/index/index.tsx`)) {
+        const warning = `
+        ⚠️缺少参页面和组件照项 \n 
+        请参阅 https://www.npmjs.com/package/wtf-basecode
+        \n \n \n `
+        return console.log(warning)
+    }
     // 页面 或 组件
     const { pageOrComponent } = await inquirer.prompt(selects.pageOrComponent);
     // 存放目录 - 相对目录
