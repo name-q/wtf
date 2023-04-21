@@ -1,5 +1,9 @@
 # WTF
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/name-q/wtf-basecode/blob/master/LICENSE)
+[![Latest Version on NPM](https://img.shields.io/npm/v/wtf-basecode.svg)](https://npmjs.com/package/wtf-basecode)
+[![npm](https://img.shields.io/npm/dt/wtf-basecode.svg)](https://www.npmjs.com/package/wtf-basecode)
+
 生成React Taro basecode(页面/组件)  
 您只需要根据指引输入名称即可生成基于你定制的页面或组件
 同时将生成对应页面的路由
@@ -13,9 +17,10 @@ WTF会将文件中的PAGENAME替换成你输入的页面名称 + 路由后缀
 如需定制包含PAGENAME的路径请补丁修改dist/cjs/index.js中的fileTarget值  
 ```
 
-WTF会将下列两个文件作为组件 basecode 
+WTF会将下列两个文件作为组件 basecode  
 ./config/wtfdata/index/components/Test.tsx  
 ./config/wtfdata/index/components/Test.less  
+
 ```sh
 WTF会将文件中的Test替换成你输入的组件名称
 ```
